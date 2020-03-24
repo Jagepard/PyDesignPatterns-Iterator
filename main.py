@@ -1,3 +1,5 @@
+# coding: utf-8
+
 """
 author  : Jagepard <jagepard@yandex.ru>
 license https://mit-license.org/ MIT
@@ -11,7 +13,7 @@ client = Client()
 
 client.addItemToTheBucket(Item("Колготки", 150, "штопаные"))
 client.addItemToTheBucket(Item("Мясо", 250, "тухлое"))
-client.addItemToTheBucket(Item("Батон", 40, ""))
+client.addItemToTheBucket(Item("Батон", 40))
 
 employee = Iterator(client.getBucket());
 
