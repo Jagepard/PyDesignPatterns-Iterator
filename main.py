@@ -15,9 +15,9 @@ client.addItemToTheBucket(Item("Колготки", 150, "штопаные"))
 client.addItemToTheBucket(Item("Мясо", 250, "тухлое"))
 client.addItemToTheBucket(Item("Батон", 40))
 
-employee = Iterator(client.getBucket());
+employee = Iterator(client.getBucket())
 
 try:
-    employee.iterateItems();
+    employee.iterateItems()
 except:
     print('An error occured.')
